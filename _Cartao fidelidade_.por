@@ -2,6 +2,7 @@ programa
 {
 funcao inicio(){
 
+inteiro cliente[10], i= 0
 inteiro cartela = 0
 caracter resp
 
@@ -12,6 +13,11 @@ leia(resp)
 
 se (resp == 'S' ou resp == 's'){
 cartela++
+
+i++
+cliente[i]
+
+
 escreva("Pagamento registrado!\n")
 escreva("Pontos: ", cartela, "\n")
 
@@ -25,4 +31,4 @@ escreva("Hoje o seu almoço é uma cortesia da casa, Parabéns!")
 
   } 
 }
-// fazer para armazenar qual cliente que comprou
+
